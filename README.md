@@ -65,13 +65,13 @@ files.upload()
 
 7. Now, download the dataset using:
 ```python
-!kaggle datasets download -d paultimothymooney/chest-xray-pneumonia
+!kaggle datasets download -d abdallahalidev/plantvillage-dataset
 ```
 
 8. Unzip the data using the following code snippet:
 ```python
 from zipfile import ZipFile
-file_name='chest-xray-pneumonia.zip'
+file_name='plant-village.zip'
 with ZipFile(file_name,'r') as zip:
   zip.extractall()
   print('Done')
