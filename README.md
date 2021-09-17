@@ -1,4 +1,4 @@
-# CNN to detect Pneumonia using Chest X-Rays
+# CNN to detect leaf diseases in Maize plant
 
 ## Overview
 A Convolutional Neural Net (CNN/ConvNet) is a Deep Neural Network, that takes inputs as images, assigns weights and biases to various aspects of the image and
