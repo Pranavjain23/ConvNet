@@ -85,7 +85,7 @@ For my complete Google Colab implementation, follow this [link](https://colab.re
 
 * ***Using system installed Python interpreter or IDE***
 
-1. Download the dataset to your system using this [link](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia), then unzip the image dataset.
+1. Download the dataset to your system using this [link](https://www.kaggle.com/abdallahalidev/plantvillage-dataset), then unzip the image dataset.
 
 2. Make sure that you have the Keras library installed. Run the following code in your Python environment:
 
