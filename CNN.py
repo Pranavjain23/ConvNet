@@ -1,9 +1,9 @@
 """
-@author: Karan-Malik
+@author: Pranav-Jain
 """
 
-#CNN to detect pneumonia from Chest X-rays
-#Train accuracy ~ 96% and Test accuracy ~ 93%
+#CNN to detect plant diseases in Maize plant leaves
+#Train accuracy ~ 96.2% and Test accuracy ~ 93%
 
 import keras
 from keras.models import Sequential
@@ -68,13 +68,13 @@ train_datagen = ImageDataGenerator(
 test_datagen = ImageDataGenerator(rescale=1./255)
 
 training_set = train_datagen.flow_from_directory(
-        'chest_xray/chest_xray/train',
+        'maize_leaves/maize_leaves/train',
         target_size=(128,128),
         batch_size=16 ,
         class_mode='binary')
 
 val_set = test_datagen.flow_from_directory(
-        'chest_xray/chest_xray/test',
+        'maize_leaves/maize_leaves/test',
         target_size=(128,128),
         batch_size=16,
         class_mode='binary')
